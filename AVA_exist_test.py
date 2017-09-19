@@ -1,3 +1,6 @@
+"""
+For Checking AVA_dataset' images exist
+"""
 import tensorflow as tf
 import sys
 import os
@@ -31,7 +34,7 @@ def check_exist(file_id):
     return os.path.isfile(TARGET_DIR + file_id + JPG_FORMAT)
 
 def main():
-    fp = open('./../../absent_list.csv', 'w')
+    fp = open('./absent_list.csv', 'w')
     if(os.path.exists(LIST_FILE)): print('file existed..')
     batch_id_list = get_id_batch(LIST_FILE, batch)
     img_id = tf.placeholder(tf.string, [batch, 1])

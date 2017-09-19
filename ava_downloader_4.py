@@ -87,7 +87,6 @@ for line in id_list:
     dir_name = dir_prefix + str(int(index / split_num) + 1)
     if (index % split_num) == 0:
         os.makedirs(dir_name, exist_ok=True)
-
     download_image(imgID)
     index += 1
     if (_stop > 0) and (index > _stop):
