@@ -6,8 +6,8 @@ Indexes are optional.
 Set 'split_num' to divide the number of images each folder. (Default is 2000)
 You can set directory name by changing 'dir_prefix'
 
-Newbie computer vision student at SKKU.
-Danny Daehyun Bea.
+Daehyun Bae
+Visual Computing Lab at SKKU
 2017-07-31
 """
 import urllib.request

@@ -5,8 +5,8 @@ Usage: python3 ava_downloader_by_ID.py
 
 You can set directory name by changing 'dir_prefix'
 
-Newbie computer vision student at SKKU.
-Danny Daehyun Bea.
+Daehyun Bae
+Visual Computing Lab at SKKU
 2017-09-20
 
 * Image ID 11066 and 397289 are not found
